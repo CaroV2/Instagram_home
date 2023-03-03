@@ -12,7 +12,6 @@ class AppContainer extends HTMLElement{
 
     render(){
         this.shadowRoot.innerHTML = `
-        <my-post nameprofile="jonathandoe" viewers="414.646 views" comments="view all 29.884 comments"></my-post>
         `
     }
 }
