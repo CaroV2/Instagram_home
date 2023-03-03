@@ -29,7 +29,11 @@ class Post extends HTMLElement {
             this.render();
           }
         
-          render() {
-            this.shadowRoot.innerHTML = ``
+    render() {
+        this.shadowRoot.innerHTML = `
+        <section>
+        <h1>${this.name}</h1>
+        <p> Desciption: ${this.description}</p>
+        </section>`
           }
 }
